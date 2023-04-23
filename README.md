@@ -1,1 +1,1 @@
-# Ismis
+# Ismis a school management system designed to simplify and streamline the administrative tasks of educational institutions. ISMIS stands for "Integrated School Management Information System" and is a powerful application that provides a centralized platform for managing various academic and administrative functions, including student registration, manage course, manage schedule, timetable creation, and much more.
