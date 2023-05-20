@@ -8,13 +8,12 @@ class AddTest extends TestCase
     protected function setUp(): void
     {
         // Create a database connection
-        $host = '127.0.0.1';
-        $username = 'your_username';
-        $password = 'your_password';
+        $host = 'localhost';
+        $username = 'root';
+        $password = '';
         $database = 'ismis_db';
-        $port = 3306;
 
-        $this->db = new PDO("mysql:host=$host;port=$port;dbname=$database;charset=utf8mb4", $username, $password);
+        $this->db = new PDO("mysql:host=$host;dbname=$database;charset=utf8mb4", $username, $password);
         $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 
